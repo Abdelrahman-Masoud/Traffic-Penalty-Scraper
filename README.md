@@ -17,25 +17,4 @@ The script reads car plate numbers from an input.xlsx file.
 It navigates the government website using Selenium.
 Extracts penalties and other relevant data.
 Appends the results into an SQL database for record-keeping.
-🛠 Installation & Setup
-Clone the repository:
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/Traffic-Penalty-Scraper.git
-cd Traffic-Penalty-Scraper
-Install dependencies:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Ensure you have the necessary files:
-
-input.xlsx → Contains plate numbers
-scrapping_traffic.ipynb → Main script
-Run the script:
-
-Open Jupyter Notebook
-Run scrapping_traffic.ipynb
